@@ -125,7 +125,7 @@ function LoginPage() {
 
   const callLogin = async (data) => {
     // let url = "http://localhost:5000/api/user";
-    let url = "https://server-rho-plum.vercel.app/api/user";
+    let url = "http://34.227.32.38:5000/api/user";
     try {
       let response = await axios.post(`${url}/login`, data);
       console.log(response, "response");

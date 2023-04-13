@@ -1,0 +1,12 @@
+.mainHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.mainHome h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.mainHome span {
+  color: blue;
+}
